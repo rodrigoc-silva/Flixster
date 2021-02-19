@@ -60,11 +60,9 @@ public class MainActivity extends AppCompatActivity {
                     Log.e(TAG, "Hit json exception", e);
                 }
             }
-
             @Override
             public void onFailure(int i, Headers headers, String s, Throwable throwable) {
                 Log.d(TAG, "onFailure");
-
             }
         });
 
